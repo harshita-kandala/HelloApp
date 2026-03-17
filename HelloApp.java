@@ -1,10 +1,11 @@
 /*HelloApp - A simple java application that displays "Hello World!" to the console
 *@author Harshita
-*@version 1.0
+*@version 2.0
 */
 
 public class HelloApp {
 	public static void main(String[] args){
-		System.out.println("Hello World!");
+		String name = args[0];
+		System.out.println("Hello, " + name + "!");
 	}
 }
